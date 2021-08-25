@@ -11,7 +11,10 @@ const NewUser = (props) =>{
     <input name="user[age]"/>
     <button type ="submit">Add New User</button>
     </form>
+    <a style={{ margin: "10px 15px 15px 25px"}} href="/">Home</a>
+    <a style={{ margin: "10px 15px 15px 25px"}} href="/users">Users</a>
     </div>
+    
   )
 }
 

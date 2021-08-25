@@ -12,7 +12,9 @@ const EditUser = (props) => {
       <input defaultValue={props.user.age} name= "user[age]"/>
       <button type="submit">Update user</button>
     </form>
-    <a href="/">Home</a>
+    <a style={{ margin: "10px 15px 15px 25px"}} href="/">Home</a>
+    <a style={{ margin: "10px 15px 15px 25px"}} href="/users">Users</a>
+
   </div>
   )
 }
