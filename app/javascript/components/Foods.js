@@ -13,9 +13,9 @@ const Foods = (props) =>{
           <div key={food.id}>
             <p>Dish Name: {food.name}</p>
             <p>Ingredients to incorperate: {food.ingred1} and {food.ingred2}</p>
-            <a style={{ margin: "10px 15px 15px 25px"}} href = {'/foods/${food.id}'}>Food Dish</a>
-            <a style={{ margin: "10px 15px 15px 25px"}} href = {'/foods/${food.id}/edit'}>Edit Food Dish</a>
-            <a style={{ margin: "10px 15px 15px 25px"}} href = {'/foods/${food.id}'} data-method = "delete">Delete Food Dish</a>
+            <a style={{ margin: "10px 15px 15px 25px"}} href = {`/foods/${food.id}`}>Food Dish</a>
+            <a style={{ margin: "10px 15px 15px 25px"}} href = {`/foods/${food.id}/edit`}>Edit Food Dish</a>
+            <a style={{ margin: "10px 15px 15px 25px"}} href = {`/foods/${food.id}`} data-method = "delete">Delete Food Dish</a>
           </div>  
         )
       }
