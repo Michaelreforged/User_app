@@ -4,7 +4,8 @@ const Users = (props) =>{
   return (
     <div> 
     <h1>Users</h1>
-    <a href = {`/users/new`}>Create New User</a>
+    <a style={{ margin: "10px 15px 15px 25px"}} href = {`/users/new`}>Create New User</a>
+    <a style={{ margin: "10px 15px 15px 25px"}} href = {`/`}>Home</a>
     {props.users.map((user) =>{
       return(
         <div key={user.id}> 

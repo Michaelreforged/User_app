@@ -12,5 +12,11 @@ require 'faker'
     name: Faker::Name.name,
     age: Faker::Number.between(from: 3, to: 120)
   )
+
+  Food.create(
+    name: Faker::Food.dish,
+    ingred1: Faker::Food.ingredient,
+    ingred2: Faker::Food.ingredient
+  )
   
 end
